@@ -129,8 +129,6 @@ public class MainClass {
         String palavra = leitura.PegarPalavra(leitura.CarregarArquivo(tam_palavra)).toLowerCase();
         palavra = leitura.removeAcentos(palavra);
 
-        System.out.println(palavra);
-
         Scanner scanString = new Scanner(System.in);
         for(int i=1; i<=num_tentativas; i++){
             System.out.print("Tentativa " + i + ": ");
